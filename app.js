@@ -292,11 +292,6 @@
           <span class="eyebrow">12 años · 3 decisiones · 1 dilema</span>
           <h1 class="title">¿Qué pasa cuando llegan más recursos y crecen más rápido las responsabilidades?</h1>
           <p class="subtitle">Gobiernas una municipalidad ficticia durante tres rondas. No hay respuesta perfecta: cada opción mueve servicios, capacidad y margen de forma distinta.</p>
-          <div class="chip-row" aria-label="Características del juego">
-            <span class="chip">Español de Colombia</span>
-            <span class="chip">Sin backend</span>
-            <span class="chip">Determinista</span>
-          </div>
         </article>
         <article class="hero__stat" aria-labelledby="sgp-main-title">
           <div class="stat-label">
