@@ -17,7 +17,7 @@
   --radius-lg: 20px;
   --radius-md: 16px;
   --radius-sm: 12px;
-  --content: 960px;
+  --content: 1180px;
   --tap: 44px;
 }
 
@@ -936,11 +936,25 @@ strong {
     align-items: stretch;
   }
 
-  .decision-shell,
   .consequence-shell,
   .summary-grid {
     grid-template-columns: minmax(0, 1.1fr) minmax(290px, 0.9fr);
     align-items: start;
+  }
+
+  /* Keep the decision flow intact on wide screens: context first,
+     indicators and options side by side, confirmation last. */
+  .decision-shell {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .decision-shell > .panel-grid {
+    grid-template-columns: minmax(330px, 0.88fr) minmax(0, 1.12fr);
+    align-items: start;
+  }
+
+  .decision-shell > .panel-grid > .surface {
+    min-width: 0;
   }
 
   .final-card {
